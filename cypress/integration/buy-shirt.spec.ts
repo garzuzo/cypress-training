@@ -21,4 +21,3 @@ describe("Buy a t-shirt", () => {
       .should("have.text", "Your order on My Store is complete.");
   });
 });
-#center_column > p.cart_navigation.clearfix > a.button.btn.btn-default.standard-checkout.button-medium
