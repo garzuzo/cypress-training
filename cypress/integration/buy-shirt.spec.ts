@@ -12,7 +12,7 @@ describe("Buy a t-shirt", () => {
     // Debes completar la prueba ... implementa los pasos 8 al 13, del proceso de compra
     cy.get("#SubmitLogin").click();
     cy.get("button[type=submit][name=processAddress]").click();
-    cy.get(".uniform-cgv").click();
+    cy.get("#uniform-cgv").click();
     cy.get("button[type=submit][name=processCarrier]").click();
     cy.get(".bankwire").click();
     cy.get("button[type=submit].button-medium").click();
